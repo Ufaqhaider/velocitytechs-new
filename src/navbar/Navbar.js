@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 
+
 const Navbar = () => {
   const [icon, setIcon] = useState(false);
 
@@ -34,7 +35,7 @@ const Navbar = () => {
           <Link to="home" spy={true} smooth={true} offset={-110} duration={100}>
             <img
               src={`${process.env.PUBLIC_URL}/images/v.png`}
-              style={{ width: "100px", height: "60px" }}
+              style={{ width: "100px", height: "50px" }}
               alt="Company Logo"
             />
           </Link>
