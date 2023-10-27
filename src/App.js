@@ -1,6 +1,7 @@
 import Home from "./Home/Home";
 import Navbar from "./navbar/Navbar";
-import Service from "./why_choose";
+// import Service from "./whychoose";
+import Service from "./why_choose/whychoose";
 import About from "./about us/about";
 import ContactUs from "./contact/Contact_Us";
 import OurServices from "./our services/OurServices";
