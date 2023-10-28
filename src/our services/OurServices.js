@@ -3,8 +3,8 @@ import "./ourServices.css";
 
 const OurServices = () => {
   return (
-    <div className="container-fluid our-service">
-      <div class=" container-fluid mt-96">
+    <div className="container">
+      <div class="mt-96">
         <h1 class="text-center mt-5 display-3 fw-bold">
           Our <span class="theme-text">Services</span>
         </h1>
@@ -13,7 +13,7 @@ const OurServices = () => {
           <div
             data-aos="fade-down-right"
             data-aos-delay="500"
-            class="fullcard col-12 col-sm-6 col-md-3 m-auto"
+            class="fullcard  col-12 col-sm-6 col-md-3 m-auto my-4"
           >
             {/* <!-- card starts here --> */}
             <div class="card  shadow">
@@ -36,10 +36,9 @@ const OurServices = () => {
           </div>
           {/* <!-- col ends here --> */}
           <div
-          
             data-aos="fade-down-right"
             data-aos-delay="500"
-            class="fullcard zome col-12 col-sm-6 col-md-3 m-auto"
+            class="fullcard zome col-12 col-sm-6 col-md-3 m-auto my-4"
           >
             {/* <!-- card starts here --> */}
             <div class="card shadow">
@@ -51,7 +50,7 @@ const OurServices = () => {
               <div class="card-body">
                 <h3 class="text-center">App Development</h3>
                 <hr class="mx-auto w-75" />
-                <p>
+                <p className=" h-14">
                   Revamp legacy apps: improved architecture, refactored code,
                   attractive new look. Engage users with modernized, appealing
                   mobile experiences.
@@ -64,7 +63,7 @@ const OurServices = () => {
           <div
             data-aos="fade-down-right"
             data-aos-delay="500"
-            class="fullcard  col-12 col-sm-6 col-md-3 m-auto"
+            class="fullcard  col-12 col-sm-6 col-md-3 m-auto my-4"
           >
             {/* <!-- card starts here --> */}
             <div class="card shadow">
@@ -89,7 +88,7 @@ const OurServices = () => {
           <div
             data-aos="fade-down-right"
             data-aos-delay="500"
-            class=" fullcard col-12 col-sm-6 col-md-3 m-auto"
+            class=" fullcard col-12 col-sm-6 col-md-3 m-auto my-4"
           >
             {/* <!-- card starts here --> */}
             <div class="card shadow">
