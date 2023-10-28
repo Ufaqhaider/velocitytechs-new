@@ -14,7 +14,7 @@ const Home = () => {
             Say goodbye to the complexities of software development. Join Us to
             experience seamless and efficient solutions.
           </p>
-          <div class="form-block-banner herocta w-form  d-md-table-row">
+          <div class="form-block-banner w-form d-md-table-row">
             <form>
               <Link
                 to="contact"
@@ -25,7 +25,7 @@ const Home = () => {
               >
                 <input
                   type="submit"
-                  class="submit-button-white  w-button 0"
+                  class="submit-button-white"
                 />
               </Link>
             </form>
@@ -36,22 +36,22 @@ const Home = () => {
           <ul>
             <li>
               <a href="/">
-                Twitter <i class="fa fa-twitter"></i>
+                 <i class="fa fa-twitter"></i>
               </a>
             </li>
             <li>
               <a href="https://facebook.com/highflyer910">
-                Facebook <i class="fa fa-facebook"></i>
+                 <i class="fa fa-facebook"></i>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/teonamushambadze">
-                Linkedin <i class="fa fa-linkedin"></i>
+                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/teonamushambadze">
-                Youtube <i class="fa fa-youtube"></i>
+                 <i class="fa fa-youtube"></i>
               </a>
             </li>
           </ul>
