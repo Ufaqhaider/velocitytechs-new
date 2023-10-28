@@ -31,7 +31,7 @@ const About = () => {
 
   return (
     <div data-section="The How" className="container section">
-      <div className="block-center snipcss0-3-34-35">
+      <div className="block-center">
         <h2 className="heading mb-5">
           Seamless software development in 3 steps
         </h2>
@@ -43,22 +43,16 @@ const About = () => {
             <div
               data-aos="fade-down-right"
               data-aos-delay={`${500 + index * 100}`}
-              className="sequence snipcss0-4-37-38"
+              className="sequence"
             >
-              <div className="icon-sequence-bg snipcss0-5-38-39">
-                <div className="number-sequence-bg snipcss0-6-39-40">
-                  <div className="number-sequence snipcss0-7-40-41">
-                    {step.number}
-                  </div>
+              <div className="icon-sequence-bg ">
+                <div className="number-sequence-bg ">
+                  <div className="number-sequence ">{step.number}</div>
                 </div>
-                <div className="text-block snipcss0-6-39-42">{step.icon}</div>
+                <div className="fs-1">{step.icon}</div>
               </div>
-              <h4 className="heading-sequence snipcss0-5-38-43">
-                {step.title}
-              </h4>
-              <p className="paragraph-sequence snipcss0-5-38-44">
-                {step.description}
-              </p>
+              <h4 className="heading-sequence">{step.title}</h4>
+              <p className="paragraph-sequence ">{step.description}</p>
             </div>
 
             {step.arrow && (
@@ -66,7 +60,7 @@ const About = () => {
                 src={step.arrow}
                 loading="lazy"
                 alt=""
-                className={`img-arrow---${index + 1} snipcss0-4-37-45`}
+                className={`img-arrow---${index + 1} `}
               />
             )}
           </React.Fragment>

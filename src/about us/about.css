@@ -104,11 +104,6 @@ img {
   margin-top: 15px;
 }
 
-#w-node-image-0007bf2f {
-  -ms-grid-column-align: center;
-  justify-self: center;
-}
-
 .sequence {
   display: -webkit-box;
   display: -webkit-flex;
@@ -135,11 +130,6 @@ img {
   width: 100%;
   max-width: 110px;
   margin-top: 40px;
-}
-
-#w-node-_8fdb0733-9c0b-9d9a-d4ac-47309542a143-0007bf2f {
-  -ms-grid-column-align: center;
-  justify-self: center;
 }
 
 h4 {
@@ -253,56 +243,9 @@ h5 {
   background-color: #ff6501;
 }
 
-.text-block {
-  font-size: 42px;
-}
-
 .number-sequence {
   color: #fff;
   font-size: 16px;
   line-height: 100%;
   font-weight: 500;
-}
-
-/* These were inline style tags. Uses id+class to override almost everything */
-#style-MZziW.style-MZziW {
-  /* opacity: 1; */
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
-
-#style-rGCsQ.style-rGCsQ {
-  /* opacity: 1; */
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
-
-#w-node-image-0007bf2f.style-ZVUjQ {
-  /* opacity: 1; */
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
-
-#style-VPfx6.style-VPfx6 {
-  /* opacity: 1; */
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
-
-#w-node-_8fdb0733-9c0b-9d9a-d4ac-47309542a143-0007bf2f.style-OkbJX {
-  /* opacity: 1; */
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
-
-#style-gr9L6.style-gr9L6 {
-  /* opacity: 1; */
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
 }
