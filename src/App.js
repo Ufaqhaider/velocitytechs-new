@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <div className="m-lg-5 justify-content-center text-center align-items-center">
+      <div className="m-lg-5 mb-5 justify-content-center text-center align-items-center">
         <Navbar />
         <Home />
         <Service />

@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div data-section="The How" className="container section">
       <div className="block-center">
-        <h2 className="heading mb-5">
+        <h2 className="fs-2 mb-5">
           Seamless software development in 3 steps
         </h2>
       </div>
@@ -52,7 +52,7 @@ const About = () => {
                 <div className="fs-1">{step.icon}</div>
               </div>
               <h4 className="heading-sequence">{step.title}</h4>
-              <p className="paragraph-sequence ">{step.description}</p>
+              <p className="paragraph-sequence px-4">{step.description}</p>
             </div>
 
             {step.arrow && (

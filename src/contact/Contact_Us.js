@@ -29,8 +29,9 @@ const Contact_Us = () => {
   };
 
   return (
-    <div className=" contact contactContainer  sectionContainer container snipcss-KKvc5">
-      <div className="respo">
+    <div className="mb-5">
+    <div className="contact contactContainer sectionContainer container">
+      <div>
         <h3>Get in Touch</h3>
         <div className="contactTypes">
           <div className="flexContainer">
@@ -124,18 +125,18 @@ const Contact_Us = () => {
               value={message}
             ></input>
           </div>
-        
         </form>
         <button
-            type="submit"
-            className="formSend"
-            target="_blank"
-            form="contactForm"
-            rel="noopener noreferrer"
-          >
-            SEND
-          </button>
+          type="submit"
+          className="formSend mt-4"
+          target="_blank"
+          form="contactForm"
+          rel="noopener noreferrer"
+        >
+          SEND
+        </button>
       </div>
+    </div>
     </div>
   );
 };

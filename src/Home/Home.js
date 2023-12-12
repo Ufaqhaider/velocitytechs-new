@@ -5,10 +5,10 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
-      <div class="content container mt-lg-5 ">
+      <div class="content home container">
         <div class="block-hero mt-5">
-          <h1 data-w-id="Heading mt-3">
-            Hassle-free software development for your business
+          <h1 data-w-id="Heading mt-3" className="heading-hero">
+            Hassle-free software development for your Business
           </h1>
           <p class="paragraph-hero ">
             Say goodbye to the complexities of software development. Join Us to
@@ -23,39 +23,13 @@ const Home = () => {
                 offset={-110}
                 duration={100}
               >
-                <input
-                  type="submit"
-                  class="submit-button-white"
-                />
+                <span class="submit-button-white rounded-pill px-5 py-3  border-0">
+                  Know More
+                </span>
               </Link>
             </form>
           </div>
         </div>
-
-        <nav class="social">
-          <ul>
-            <li>
-              <a href="/">
-                 <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://facebook.com/highflyer910">
-                 <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/teonamushambadze">
-                 <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/teonamushambadze">
-                 <i class="fa fa-youtube"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
 
         {/* moving bolls animation  */}
         <div class="block-hero-img 5  mt-lg-3 ">

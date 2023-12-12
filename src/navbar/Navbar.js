@@ -29,7 +29,7 @@ const Navbar = () => {
     ));
 
   return (
-    <div className="container custom mt-5 d-flex justify-content-center">
+    <div className="container custom mt-5 mb-5 d-flex justify-content-center">
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
           <Link to="home" spy={true} smooth={true} offset={-110} duration={100}>
@@ -60,6 +60,10 @@ const Navbar = () => {
             id="navbarNav"
           >
             <ul className="navbar-nav ms-auto">{renderNavLinks()}</ul>
+
+          
+
+
           </div>
         </div>
       </nav>
