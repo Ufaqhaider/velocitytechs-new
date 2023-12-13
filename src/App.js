@@ -9,6 +9,7 @@ import "./App.css";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "./footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <About />
         <OurServices />
         <ContactUs />
+        <Footer/>
       </div>
     </>
   );

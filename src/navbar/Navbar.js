@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 
-
 const Navbar = () => {
   const [icon, setIcon] = useState(false);
 
@@ -15,7 +14,7 @@ const Navbar = () => {
 
   const renderNavLinks = () =>
     navLinks.map((link, index) => (
-      <li className="nav-item" key={index}>
+      <li className="nav-item cursor-pointer" key={index}>
         <Link
           to={link.to}
           spy={true}
@@ -23,7 +22,7 @@ const Navbar = () => {
           offset={-110}
           duration={100}
         >
-          <span className="nav-link">{link.label}</span>
+          <span className=" nav-link cursor-pointer">{link.label}</span>
         </Link>
       </li>
     ));
@@ -39,6 +38,31 @@ const Navbar = () => {
               alt="Company Logo"
             />
           </Link>
+
+          {/* <div>
+            <ul class="navbar-nav sm-icons">
+              <li>
+                <a class="nav-link" href="#">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">
+                  <i class="bi bi-pinterest"></i>
+                </a>
+              </li>
+            </ul>
+          </div> */}
 
           <button
             className="navbar-toggler"
@@ -59,12 +83,9 @@ const Navbar = () => {
             className={`collapse navbar-collapse ${icon ? "show" : ""}`}
             id="navbarNav"
           >
-            <ul className="navbar-nav ms-auto">{renderNavLinks()}</ul>
-
-          
-
-
+            <ul className="navbar-nav  ms-auto">{renderNavLinks()}</ul>
           </div>
+
         </div>
       </nav>
     </div>

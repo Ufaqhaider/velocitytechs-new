@@ -133,6 +133,8 @@
 .submit-button-white {
     background-color: #ff6501;
     color: #0c1d37
-
+}
+.submit-button-white:hover{
+    cursor: pointer;
 }
 

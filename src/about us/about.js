@@ -60,7 +60,7 @@ const About = () => {
                 src={step.arrow}
                 loading="lazy"
                 alt=""
-                className={`img-arrow---${index + 1} `}
+                className={` img-arrow---${index + 1} `}
               />
             )}
           </React.Fragment>

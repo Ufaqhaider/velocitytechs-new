@@ -23,7 +23,7 @@ const Home = () => {
                 offset={-110}
                 duration={100}
               >
-                <span class="submit-button-white rounded-pill px-5 py-3  border-0">
+                <span class="submit-button-white rounded-pill px-5 py-3 border-0">
                   Know More
                 </span>
               </Link>
