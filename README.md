@@ -39,7 +39,7 @@ At VelocityTech, we are driven by a passion for innovation. We believe in harnes
 Are you ready to transform your business with VelocityTech's innovative technology solutions? Get in touch with us today to explore how we can collaborate.
 
 - Email: info@velocitytech.in
-- Phone: +1 (555) 123-4567
+- Phone: +91 8416954767
 - Visit us at: www.velocitytech.in
 - 
 
